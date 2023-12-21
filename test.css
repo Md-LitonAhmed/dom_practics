@@ -1,0 +1,91 @@
+/* .test {
+  background-color: green;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.red {
+  background-color: red;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+} */
+
+*{
+  box-sizing: border-box;
+}
+.container{
+  background: #d3efdf;
+  padding: 25px;
+  max-width: 760px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 4px solid #b1c9bb;
+  font-family: sans-serif;
+
+  }
+  .new-task-container{
+    text-align: center;
+  }
+  h1,h2{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #b1c9bb;
+    padding: 0 0 10px;
+    color: #57635c;
+  }
+  .box{
+    background: #fff;
+    padding: 10px 15px;
+    border: 2px solid #b1c9bb;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+  
+  .logo{
+   width: 100%;
+   text-align: center;
+  }
+  .logo img{
+    width: 100px;
+  }
+.todo-list{
+  float: left;
+  width: 45%;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  padding: 10px;
+  border-bottom: 2px dotted #ccc;
+}
+.completed-list{
+  float: right;
+  width: 45%;
+}
+.delete{
+  float: right;
+  background: red;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}

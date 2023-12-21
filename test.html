@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <!-- <div class="test">
+        <div class="red"></div>
+    </div> -->
+    <section class="container">
+        <div class="logo">
+            <img src="images/logo.png"/>
+        </div>
+       
+        <h1 class="header" id="header">To-Do App</h1>
+
+       <form class="new-task-container box"/>
+        <label for="new-task">Add new task</label>
+        <input type="text" id="new-task" />
+        <input  id="addTask" type="submit" value="Add task" />
+    </form>
+
+       <div class="todo-list box">
+        <h2>Incomplete Tasks</h2>
+        <ul class="items">
+            <li class="item">
+                <input type="checkbox"/> <label>Task Name</label>
+            </li>
+            <li class="item">
+                <input type="checkbox"/> <label>Task Name</label>
+            </li>
+            <li class="item">
+                <input type="checkbox"/> <label>Task Name</label>
+            </li>
+
+        </ul>
+       </div>
+       <div class="completed-list box">
+        <h2>Completed Task</h2>
+        <ul>
+            <li class="item">
+                Task Name <button class="delete">Delete</button>
+            </li>
+        </ul>
+
+       </div>
+    </section>
+</body>
+</html>
